@@ -41,8 +41,8 @@ Added `arm64` to the `hostArchitectures` attribute so the installer runs on Appl
 
 ### Change 2: Remove macOS version cap
 
-```xml
-<!-- ORIGINAL -->
+```js
+// ORIGINAL
 function InstallationCheck(prefix) {
     if (system.compareVersions(system.version.ProductVersion, '15.0') > 0) {
         my.result.message = system.localizedStringWithFormat('ERROR_25CBFE41C7', '15.0');
@@ -52,7 +52,7 @@ function InstallationCheck(prefix) {
     return true;
 }
 
-<!-- PATCHED -->
+// PATCHED
 function InstallationCheck(prefix) {
     return true;
 }
