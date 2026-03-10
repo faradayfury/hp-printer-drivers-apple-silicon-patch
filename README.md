@@ -1,4 +1,4 @@
-# HP Printer Drivers — macOS Compatibility Patch
+# HP Printer Drivers — Apple Silicon & macOS Compatibility Patch
 
 ## The Problem
 
@@ -80,6 +80,31 @@ hdiutil detach /Volumes/HP_PrinterSupportManual
 # 6. Install the patched pkg
 sudo installer -pkg HewlettPackardPrinterDrivers-patched.pkg -target /
 ```
+
+## Supported Printers
+
+This driver package includes PPDs for **280+ HP printer models** across the following families:
+
+### LaserJet
+HP LaserJet 1010, 1012, 1015, 1150, 1160 series, Pro MFP M125-M126, Pro MFP M127-M128, Color LaserJet 3500, 3550, 3600, Color LaserJet Pro MFP M176, M177, 100 color MFP series, 200 color MFP M276, 300 color MFP M375, 400 color MFP M475, 400 MFP M425, 500 color MFP M570, CM1312 MFP, CM1410, M1522 MFP, M1530 MFP, M2727 MFP, Pro MFP M225-M226, Pro MFP M521, X476-X576 MFP
+
+### OfficeJet
+HP Officejet 100 Mobile L411, 150 Mobile L511, 2620, 4000 K210, 4100-4600 series, 4630, 5500-5740 series, 6000-6800 series, 7000-7610 series, 8040 series, H470, J3600-J6400 series, K7100, Pro 3610, 3620, 6230, 6830, 8000-8660 series, Pro K550-K8600, Pro L7300-L7700
+
+### DeskJet
+HP Deskjet 460, 1000-1510 series, 2000-2640 series, 3000-3900 series, 4510-4640 series, 5400-5900 series, 6500-6980 series, 9800, D730-D5500 series, F300-F4500 series, Ink Advantage 2010/2060/2640/4640, K109/K209
+
+### ENVY
+HP ENVY 100, 110, 120, 4500, 5530, 5640, 5660, 7640 series
+
+### Photosmart
+HP Photosmart 140-470 series, 2570-3300 series, 5510-7520 series, 7400-8700 series, A310-A820 series, B010-B8500 series, C309-C8100 series, D110-D7500 series, Ink Adv K510, Plus B209/B210, Prem C310/C410, Premium C309, Pro B8300/B8800/B9100, Wireless B109, eStn C510
+
+### Designjet
+HP Designjet 111, 130, 500/500ps plus, 510/510ps, T120-T920, Z2100-Z5200
+
+### PSC
+HP PSC 1000-2500 series
 
 ## Notes
 
