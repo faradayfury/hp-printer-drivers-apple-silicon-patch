@@ -105,28 +105,31 @@ sudo installer -pkg HewlettPackardPrinterDrivers-patched.pkg -target /
 
 ## Supported Printers
 
-This driver package includes PPDs for **280+ HP printer models** across the following families:
+This driver package includes PPDs for **325+ HP printer models** across the following families:
 
 ### LaserJet
-HP LaserJet 1010, 1012, 1015, 1150, 1160 series, Pro MFP M125-M126, Pro MFP M127-M128, Color LaserJet 3500, 3550, 3600, Color LaserJet Pro MFP M176, M177, 100 color MFP series, 200 color MFP M276, 300 color MFP M375, 400 color MFP M475, 400 MFP M425, 500 color MFP M570, CM1312 MFP, CM1410, M1522 MFP, M1530 MFP, M2727 MFP, Pro MFP M225-M226, Pro MFP M521, X476-X576 MFP
+HP LaserJet 1010, 1012, 1015, 1150, 1160 series, Pro MFP M125-M126, Pro MFP M127-M128, Color LaserJet 3500, 3550, 3600, Color LaserJet Pro MFP M176, M177
 
 ### OfficeJet
-HP Officejet 100 Mobile L411, 150 Mobile L511, 2620, 4000 K210, 4100-4600 series, 4630, 5500-5740 series, 6000-6800 series, 7000-7610 series, 8040 series, H470, J3600-J6400 series, K7100, Pro 3610, 3620, 6230, 6830, 8000-8660 series, Pro K550-K8600, Pro L7300-L7700
+HP Officejet 100 Mobile L411, 150 Mobile L511, 2620, 4000 K210, 4100, 4105, 4200 series, 4300 series, 4400 K410, 4500 G510/K710, 4610 series, 4620 series, 4630 series, 5500 series, 5600 series, 5740 series, 6000 E609, 6100, 6200 series, 6220, 6300 series, 6500 E709/E710, 6600, 6700, 6800, 7000 E809, 7110 series, 7200 series, 7300 series, 7400 series, 7500 E910, 7610 series, 8040 series, H470, J3600 series, J4500 series, J4660 series, J4680 series, J5700 series, J6400 series, K7100, Pro 3610, 3620, 6230, 6830, Pro 8000-8660 series, Pro K550/K5300/K5400/K850/K8600, Pro L7300-L7700
 
 ### DeskJet
-HP Deskjet 460, 1000-1510 series, 2000-2640 series, 3000-3900 series, 4510-4640 series, 5400-5900 series, 6500-6980 series, 9800, D730-D5500 series, F300-F4500 series, Ink Advantage 2010/2060/2640/4640, K109/K209
+HP Deskjet 460, 1000 J110, 1010, 1050 J410, 1510, 2000 J210, 2020, 2050 J510, 2510, 2520, 2540, 2640, 3000 J310, 3050/3050A, 3070 B611, 3320, 3420, 3500, 3510, 3520, 3540, 3600, 3740, 3840, 3900, 4510, 4610, 4620, 4640, 5400 series, 5520, 5700, 5900 series, 6500, 6520 series, 6600, 6800, 6940 series, 6980 series, 9800, D730, D1300-D1600 series, D2300-D2600 series, D4100-D4300 series, D5060-D5500 series, F300 series, F735, F2100-F2400 series, F4100-F4500 series, Ink Advantage 2010/2060, Ink Advantage K109/K209
 
 ### ENVY
-HP ENVY 100, 110, 120, 4500, 5530, 5640, 5660, 7640 series
+HP ENVY 100 D410, 110, 120, 4500, 5530, 5640, 5660, 7640 series
 
 ### Photosmart
-HP Photosmart 140-470 series, 2570-3300 series, 5510-7520 series, 7400-8700 series, A310-A820 series, B010-B8500 series, C309-C8100 series, D110-D7500 series, Ink Adv K510, Plus B209/B210, Prem C310/C410, Premium C309, Pro B8300/B8800/B9100, Wireless B109, eStn C510
+HP Photosmart 140, 240, 320, 330, 370, 380, 420, 470 series, 2570-2700 series, 3100-3300 series, 5510/5510d, 5520, 6510, 6520, 7200, 7400, 7510, 7520, 7600, 7700, 7800, 7900, 8000-8700 series, A310-A820 series, B010/B109/B110/B8500 series, C309/C3100-C8100 series, D110/D5060-D7500 series, Ink Adv K510, Plus B209/B210, Prem C310/C410, Premium C309, Pro B8300/B8800/B9100, Wireless B109, eStn C510
 
 ### Designjet
-HP Designjet 111, 130, 500/500ps plus, 510/510ps, T120-T920, Z2100-Z5200
+HP Designjet 111, 130, 500/500ps plus, 510/510ps, T120, T520, T610, T620, T770, T790, T795, T920, T1100, T1120, T1200, T1300, T1500, T2300, T2500, T3500, Z2100, Z3100/Z3100ps, Z3200/Z3200ps, Z5200
 
 ### PSC
-HP PSC 1000-2500 series
+HP PSC 1000, 1100, 1200, 1300, 1310, 1400, 1500, 1600, 2100, 2150, 2170, 2200, 2300, 2350, 2400, 2500 series
+
+### Other / Legacy
+HP 910, HP 915, hp1100, hp1100w, hp1130, hp1210nf, hp1560, hp1600dn
 
 ## Notes
 
