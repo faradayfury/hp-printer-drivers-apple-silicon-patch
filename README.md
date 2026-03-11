@@ -134,6 +134,7 @@ HP PSC 1000-2500 series
 - This package includes drivers for many HP printers (LaserJet, OfficeJet, DeskJet, etc.), not just a single model.
 - The original DMG is Apple's own distribution from `swscan.apple.com`, package identifier `com.apple.pkg.HewlettPackardPrinterDrivers`.
 - **No proprietary binaries are modified or redistributed** — only the installer metadata (Distribution XML) is patched.
+- Rosetta 2 will be removed from macOS in macOS 28, diminished only to gaming support and Linux translation.
 
 ## Disclaimer
 
